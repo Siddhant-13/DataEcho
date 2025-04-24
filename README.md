@@ -15,7 +15,7 @@ By leveraging advanced AI models, DataEcho transforms complex visualizations int
 - **Multiple View Options**: Switch between original chart image, extracted data table, and raw text views
 - **Conversational Interface**: Chat with your data using natural language questions
 - **Accessible Design**: User-friendly dark mode interface optimized for various accessibility needs
-- **Multiple File Format Support**: Upload graphs in JPG, PNG, or GIF formats
+- **Multiple File Format Support**: Upload graphs in JPG, PNG, or WEBP formats
 
 
 ## Technology Stack
