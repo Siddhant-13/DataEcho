@@ -40,19 +40,19 @@ Upload your graph image by dragging and dropping or clicking to select a file.
 
 After uploading, DataEcho processes and displays your chart with analysis options.
 
-Chart Analysis
+![Chart Analysis](assets/chartanalysis.png)
 
 ### Data Table View
 
 The application automatically extracts data points from your graph into an accessible table format.
 
-Data Table
+![Data Table](assets/table.png)
 
 ### Ask Questions About Your Data
 
 Chat with your data using natural language. Type or use voice commands to ask questions about the graph.
 
-Conversation Interface
+![Conversation Interface](assets/answer.png)
 
 ## How It Works
 
