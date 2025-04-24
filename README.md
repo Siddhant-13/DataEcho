@@ -34,7 +34,7 @@ By leveraging advanced AI models, DataEcho transforms complex visualizations int
 
 Upload your graph image by dragging and dropping or clicking to select a file.
 
-![Upload Interface](assets/home)
+![Upload Interface](assets/home.png)
 
 ### Chart Analysis
 
