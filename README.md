@@ -1,8 +1,5 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
 # DataEcho - Accessible Graph Insights
-
-DataEcho Logo
 
 ## Description
 
@@ -37,7 +34,7 @@ By leveraging advanced AI models, DataEcho transforms complex visualizations int
 
 Upload your graph image by dragging and dropping or clicking to select a file.
 
-Upload Interface
+![Upload Interface](assets/home)
 
 ### Chart Analysis
 
@@ -98,25 +95,6 @@ npm run dev
 5. Type your question or click the microphone icon to use voice input
 6. View the response in text format or listen to the spoken answer
 
-## API Reference
-
-### Main Endpoints
-
-- `POST /api/upload`: Upload graph image for processing
-- `GET /api/data/:id`: Retrieve extracted data for a specific graph
-- `POST /api/query`: Submit a question about graph data
-- `GET /api/voice/:id`: Get voice output for a specific response
-
-
-## Contributing
-
-We welcome contributions to improve DataEcho! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 
@@ -126,13 +104,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Project Link: [https://github.com/Siddhant-13/DataEcho](https://github.com/Siddhant-13/DataEcho)
 
-<div style="text-align: center">⁂</div>
-
-[^1]: https://pplx-res.cloudinary.com/image/private/user_uploads/HDCdxLhdMVCadpN/home.jpg
-
-[^2]: https://pplx-res.cloudinary.com/image/private/user_uploads/IVXoUmjqIVxmjJO/chartanalysis.jpg
-
-[^3]: https://pplx-res.cloudinary.com/image/private/user_uploads/eXPETQRAUKrXGKM/table.jpg
-
-[^4]: https://pplx-res.cloudinary.com/image/private/user_uploads/uNgxfTtWgkotVFQ/answer.jpg
 
