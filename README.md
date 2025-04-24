@@ -9,7 +9,7 @@ By leveraging advanced AI models, DataEcho transforms complex visualizations int
 
 ## Features
 
-- **Graph to Table Conversion**: Automatically extracts data from uploaded graph images and converts them to accessible tables
+- **Graph to Table Conversion**: Automatically extracts data from uploaded graph images and converts them to accessible tables using Google's DePlot
 - **Voice Input \& Output**: Ask questions about your data using voice commands and receive spoken responses
 - **Multimodal Analysis**: Utilizes LLaVA 13b to understand both the visual and tabular representation of data
 - **Multiple View Options**: Switch between original chart image, extracted data table, and raw text views
