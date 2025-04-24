@@ -1,73 +1,138 @@
-# Welcome to your Lovable project
+<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
-## Project info
+# DataEcho - Accessible Graph Insights
 
-**URL**: https://lovable.dev/projects/f2aebbe7-0236-4b79-9a6f-b1023145e563
+DataEcho Logo
 
-## How can I edit this code?
+## Description
 
-There are several ways of editing your application.
+DataEcho is a web application designed to make graph data accessible to everyone, especially those who find graphs difficult to interpret or individuals with visual impairments. The platform converts visual graphs into easily navigable data tables and provides both text and voice interfaces for interacting with the extracted data.
 
-**Use Lovable**
+By leveraging advanced AI models, DataEcho transforms complex visualizations into accessible formats, allowing users to query and understand graph data through natural language conversations.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f2aebbe7-0236-4b79-9a6f-b1023145e563) and start prompting.
+## Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Graph to Table Conversion**: Automatically extracts data from uploaded graph images and converts them to accessible tables
+- **Voice Input \& Output**: Ask questions about your data using voice commands and receive spoken responses
+- **Multimodal Analysis**: Utilizes LLaVA 13b to understand both the visual and tabular representation of data
+- **Multiple View Options**: Switch between original chart image, extracted data table, and raw text views
+- **Conversational Interface**: Chat with your data using natural language questions
+- **Accessible Design**: User-friendly dark mode interface optimized for various accessibility needs
+- **Multiple File Format Support**: Upload graphs in JPG, PNG, or GIF formats
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Technology Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Frontend**: React.js, Tailwind CSS, Vite
+- **Backend**: Python
+- **AI/ML**:
+    - LLaVA 13b multimodal LLM for visual-textual reasoning
+    - Google's DePlot for graph-to-table conversion
+- **Accessibility**: Voice input/output integration
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Demo
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Home Screen
 
-# Step 3: Install the necessary dependencies.
-npm i
+Upload your graph image by dragging and dropping or clicking to select a file.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Upload Interface
+
+### Chart Analysis
+
+After uploading, DataEcho processes and displays your chart with analysis options.
+
+Chart Analysis
+
+### Data Table View
+
+The application automatically extracts data points from your graph into an accessible table format.
+
+Data Table
+
+### Ask Questions About Your Data
+
+Chat with your data using natural language. Type or use voice commands to ask questions about the graph.
+
+Conversation Interface
+
+## How It Works
+
+1. **Upload**: Users upload graph images through the intuitive interface
+2. **Extraction**: Google's DePlot technology extracts data points from the image
+3. **Conversion**: The system generates an accessible data table from the extracted information
+4. **Interaction**: Users can ask questions about the data using text or voice
+5. **Analysis**: LLaVA 13b multimodal LLM processes both the original image and extracted data
+6. **Response**: The system provides detailed answers in text format and optionally as voice output
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Siddhant-13/DataEcho.git
+
+# Navigate to project directory
+cd DataEcho
+
+# Install backend dependencies
+pip install -r requirements.txt
+
+# Navigate to frontend directory
+cd frontend
+
+# Install frontend dependencies
+npm install
+
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Usage
 
-**Use GitHub Codespaces**
+1. Launch the application and navigate to the home screen
+2. Upload a graph image by clicking "Choose Image" or dragging a file to the upload area
+3. Once processing is complete, switch between Chart Image, Data Table, and Raw Text views
+4. Click on the Chat tab to ask questions about your data
+5. Type your question or click the microphone icon to use voice input
+6. View the response in text format or listen to the spoken answer
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## API Reference
 
-## What technologies are used for this project?
+### Main Endpoints
 
-This project is built with:
+- `POST /api/upload`: Upload graph image for processing
+- `GET /api/data/:id`: Retrieve extracted data for a specific graph
+- `POST /api/query`: Submit a question about graph data
+- `GET /api/voice/:id`: Get voice output for a specific response
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+## Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/f2aebbe7-0236-4b79-9a6f-b1023145e563) and click on Share -> Publish.
+We welcome contributions to improve DataEcho! Please follow these steps:
 
-## Can I connect a custom domain to my Lovable project?
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Yes it is!
+## License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Contact
+
+Project Link: [https://github.com/Siddhant-13/DataEcho](https://github.com/Siddhant-13/DataEcho)
+
+<div style="text-align: center">⁂</div>
+
+[^1]: https://pplx-res.cloudinary.com/image/private/user_uploads/HDCdxLhdMVCadpN/home.jpg
+
+[^2]: https://pplx-res.cloudinary.com/image/private/user_uploads/IVXoUmjqIVxmjJO/chartanalysis.jpg
+
+[^3]: https://pplx-res.cloudinary.com/image/private/user_uploads/eXPETQRAUKrXGKM/table.jpg
+
+[^4]: https://pplx-res.cloudinary.com/image/private/user_uploads/uNgxfTtWgkotVFQ/answer.jpg
+
