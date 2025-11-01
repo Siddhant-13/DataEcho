@@ -11,7 +11,7 @@ const ChatInterface: React.FC = () => {
 
     // Check backend and Ollama connectivity on mount
     useEffect(() => {
-        checkConnections();
+        checkConnections(); 
         
         // Check connections every 60 seconds instead of 30
         const interval = setInterval(checkConnections, 60000);
@@ -126,3 +126,4 @@ const ChatInterface: React.FC = () => {
 };
 
 export default ChatInterface;
+
