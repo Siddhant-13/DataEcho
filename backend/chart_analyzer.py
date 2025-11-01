@@ -9,7 +9,7 @@ from PIL import Image
 from tabulate import tabulate
 import pandas as pd
 import requests
-import json
+import json 
 import signal
 import sys
 import time
@@ -268,3 +268,4 @@ def chart_analyzer(image_path, model="llama3"):
         "formattedTable": formatted_table,
         "rawText": raw_output
     }
+
