@@ -6,7 +6,7 @@ This server provides API endpoints to extract data from charts and ask questions
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import os
+import os 
 import logging
 from werkzeug.utils import secure_filename
 import json
@@ -534,3 +534,4 @@ def ask_chart():
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
+
